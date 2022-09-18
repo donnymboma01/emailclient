@@ -6,7 +6,7 @@
         <label for="">Username</label>
         <input type="text" formControlName="username" />
     </div>
-
+    {{ authForm.get('username') | json }}
     <div class="field">
         <label for="">Password</label>
         <input type="text" formArrayName="password">
